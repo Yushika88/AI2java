@@ -1,3 +1,5 @@
+package Week2;
+
 
 /**
  * Write a description of class Workshop3 here.
@@ -5,7 +7,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Workshop3
+public class Question3
 {
     public static void main (String[]arg)
     {

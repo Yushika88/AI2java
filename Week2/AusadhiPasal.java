@@ -1,3 +1,5 @@
+package Week2;
+
 import java.util.Scanner;
 
 /**
@@ -40,10 +42,6 @@ public class AusadhiPasal
         int updateStock;
         updateStock=medicineQuantity-quantityRequired;
         System.out.println("The remaining stock is: "+updateStock);
-        
-        
-        
-        
         
     }
 }

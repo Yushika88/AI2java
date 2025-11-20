@@ -1,3 +1,5 @@
+package Week2;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +8,7 @@ import java.util.Scanner;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Workshop4
+public class Question4
 {
    public static void main(String[]arg)
    {
