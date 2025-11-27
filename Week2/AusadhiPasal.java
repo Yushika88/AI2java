@@ -32,11 +32,13 @@ public class AusadhiPasal
         int quantityRequired=sc.nextInt();
         
         //to check the stock
+        int totalPrice=medicinePrice*quantityRequired;
         String checkStock;
         checkStock=(medicineQuantity>quantityRequired)?"In Stock":"Out of Stock";
-        
+        int checkPrice=(checkStock=="In Stock")?totalPrice:0;
+        System.out.println(checkStock);
+        System.out.println("totalPrice="+totalPrice);
         //to get the total price
-        int totalPrice=medicinePrice*quantityRequired;
         
         //to update stock amount
         int updateStock;
